@@ -1,8 +1,10 @@
 import React from 'react';
 
-function Main() {
+function Main( { darkMode } ) {
+
+  console.log(darkMode);
   return (
-    <main>
+    <main className={`${darkMode ? 'darkMode' : ''}`}>
       <h1>This is My Webpage 💫</h1>
       <p>Cupcake ipsum dolor sit amet biscuit fruitcake. Tart chocolate cake jujubes jelly-o candy. I love biscuit pudding. Chocolate cake sugar plum chocolate bar caramels pie cake. Caramels cookie lollipop halvah jelly-o. Dessert I love cake gummi bears chocolate jelly-o. Ice cream cotton candy candy canes carrot cake sweet I love powder chocolate.</p>
       <p>Dragée carrot cake chocolate cake dessert muffin lemon drops sesame snaps bear claw candy. Cake I love halvah cheesecake chocolate cake chupa chups. Caramels dragée sweet roll ice cream muffin brownie carrot cake brownie powder. Liquorice I love bear claw jelly beans. Chupa chups cheesecake donut pie gummi bears cake macaroon lollipop chocolate. Sweet muffin biscuit caramels brownie I love I love fruitcake. Dessert cake bonbon tiramisu sesame snaps caramels. Dessert bonbon danish pie. Jelly I love lollipop croissant.</p>

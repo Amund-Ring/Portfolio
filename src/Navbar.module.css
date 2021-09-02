@@ -81,8 +81,7 @@
   max-width: 2.2rem;
 }
 
-.linkText,
-.theme-text {
+.linkText {
   display: none;
   margin-left: 1rem;
 }
@@ -165,7 +164,7 @@
     width: 16rem;
   }
 
-  .menuItem:hover a {
+  .menuItem:hover div {
     background: var(--bg-secondary);
   }
 
@@ -175,15 +174,16 @@
   }
 }
 
+/***** THEME *****/
 .off {
   display: none;
 }
 
-/* #theme-link span {
-  white-space: nowrap;
-} */
+.themeText {
+  margin-left: 1rem;
+  display: none;
+}
 
-.body-dark {
-  background: var(--bg-dark);
-  color: var(--text-secondary);
+.navbar:hover .themeText {
+  display: inline;
 }

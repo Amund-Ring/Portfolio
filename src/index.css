@@ -38,11 +38,6 @@ body::-webkit-scrollbar-thumb {
   background: #6649b8;
 }
 
-.body-dark {
-  background: var(--bg-dark);
-  color: var(--text-secondary);
-}
-
 main {
   margin-left: 5rem;
   padding: 1rem;
@@ -50,4 +45,9 @@ main {
 
 main p {
   margin-top: 20px;
+}
+
+.darkMode {
+  background: var(--bg-dark);
+  color: var(--text-secondary);
 }
