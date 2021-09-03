@@ -4,7 +4,7 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 
 function Navbar({ darkMode, setDarkMode }) {
   const scrollToTop = () => {
-    scroll.scrollToTop();
+    scroll.scrollToTop({duration: 400 });
   };
 
   const handleThemeClick = () => {

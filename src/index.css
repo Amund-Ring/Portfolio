@@ -14,16 +14,11 @@
 }
 
 body {
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: whitesmoke; */
   font-size: 16px;
   font-family: 'Open Sans';
   margin: 0;
   padding: 0;
+  background: #FFF6D4;
 }
 
 body::-webkit-scrollbar {
@@ -52,7 +47,17 @@ main p {
 }
 
 main section {
-  margin-top: 600px;
+  height: 95vh;
+}
+
+.rectangle {
+  width: 30%;
+  height: 100vh;
+  background: #88DAF7;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -10;
 }
 
 .darkMode {

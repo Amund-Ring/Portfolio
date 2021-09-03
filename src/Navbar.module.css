@@ -73,7 +73,6 @@
   margin: 0 1.5rem;
   color: var(--icon-primary);
   fill: var(--icon-primary);
-  /* fill: var(--icon-primary); */
 }
 
 .skills svg {
@@ -128,9 +127,17 @@
     margin-top: 0;
   }
 
-  #themeButton svg {
+  /* #themeButton svg {
     min-width: 2.5rem;
     max-width: 2.5rem;
+  } */
+
+  /* .darkMode {
+    background: greenyellow;
+  } */
+
+  .themeText {
+    background: pink;
   }
 
   h1 {
@@ -138,10 +145,14 @@
   }
 }
 
-@media only screen and (max-width: 325px) {
+/* @media only screen and (max-width: 325px) {
   #theme-button {
     display: none;
   }
+} */
+
+.menuItem:hover .link {
+  background: var(--bg-secondary);
 }
 
 @media only screen and (min-width: 600px) {
@@ -164,13 +175,13 @@
     width: 16rem;
   }
 
-  .menuItem:hover div {
-    background: var(--bg-secondary);
-  }
-
   .menuItem:hover svg {
     color: var(--icon-selected);
     fill: var(--icon-selected);
+  }
+
+  .navbar:hover .themeText {
+    display: inline;
   }
 }
 
@@ -182,8 +193,4 @@
 .themeText {
   margin-left: 1rem;
   display: none;
-}
-
-.navbar:hover .themeText {
-  display: inline;
 }
