@@ -1,0 +1,41 @@
+.section {
+  display: grid;
+  place-items: center;
+}
+
+.content {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  /* border: 1px solid red; */
+}
+
+.text {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.text h1 {
+  font-size: 80px;
+  letter-spacing: 8px;
+  font-family: 'Norican', cursive;
+  color: #5a9cf3;
+  text-shadow: +1px +1px #193e6e,
+               -1px -1px #193e6e;
+}
+
+.text h3 {
+  font-size: 27px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.portrait {
+  width: 40%;
+  border-radius: 50%;
+  border: 10px solid #347ad7;
+}

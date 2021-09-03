@@ -1,19 +1,16 @@
 import React from 'react';
-// import Contact from './Contact';
 import Home from './Home';
-// import Portfolio from './Portfolio';
-// import Skills from './Skills';
-// import { Link } from 'react-scroll';
+import Portfolio from './Portfolio';
+import Skills from './Skills';
+import Contact from './Contact';
 
 function Main({ darkMode }) {
-  console.log(darkMode);
   return (
     <main className={`${darkMode ? 'darkMode' : ''}`}>
-      
-      <Home />
-      {/* <Portfolio />
+      <Home darkMode={darkMode} />
       <Skills />
-      <Contact /> */}
+      <Portfolio />
+      <Contact />
 
       <div className="rectangle"></div>
     </main>

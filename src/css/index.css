@@ -1,7 +1,8 @@
 /***** Color Panel *****/
 :root {
-  --icon-primary: #79dcfa;
+  --text-primary: #0a2d5b;
   --text-secondary: #ececec;
+  --icon-primary: #79dcfa;
   --icon-selected: #fca5df;
   --bg-primary: #0662dd;
   --bg-secondary: #074ba5;
@@ -11,6 +12,7 @@
 
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -19,6 +21,7 @@ body {
   margin: 0;
   padding: 0;
   background: #FFF6D4;
+  color: var(--text-primary);
 }
 
 body::-webkit-scrollbar {
@@ -35,9 +38,8 @@ body::-webkit-scrollbar-thumb {
 
 main {
   margin-left: 5rem;
-  padding: 1rem;
-  padding-bottom: 1000px;
-
+  /* padding: 1rem; */
+  /* padding-bottom: 1000px; */
   text-align: center;
 }
 
@@ -47,7 +49,14 @@ main p {
 }
 
 main section {
-  height: 95vh;
+  height: 100vh;
+  /* border: 10px solid rgb(42, 124, 10); */
+
+}
+
+.darkMode {
+  background-color: var(--bg-dark);
+  color: var(--text-secondary);
 }
 
 .rectangle {
@@ -60,7 +69,4 @@ main section {
   z-index: -10;
 }
 
-.darkMode {
-  background: var(--bg-dark);
-  color: var(--text-secondary);
-}
+
