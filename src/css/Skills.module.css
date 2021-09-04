@@ -1,0 +1,70 @@
+.section {
+  display: grid;
+  place-items: center;
+}
+
+.content {
+  width: 90%;
+  height: 90%;
+  padding: 50px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px; */
+
+  display: grid;
+  grid-template-columns: 37% auto;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 35px;
+
+
+
+  height: 60vh;
+  /* border: 2px solid green; */
+}
+
+.skills {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 3px 3px 3px;
+  max-width: 350px;
+}
+
+.button {
+  width: 100%;
+  max-width: 350px;
+  height: 80px;
+  /* flex-grow: 2; */
+  border-radius: 20px;
+  background: #1380d7;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 3px 3px 3px;
+  /* max-height: 100px; */
+  min-height: 70px;
+
+}
+
+.right {
+  height: 60vh;
+  /* border: 2px solid green; */
+
+}
+
+.resume {
+  width: 100%;
+  max-height: 60vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 3px 3px 5px;
+}

@@ -145,11 +145,11 @@
   }
 }
 
-/* @media only screen and (max-width: 325px) {
-  #theme-button {
+@media only screen and (max-width: 325px) {
+  #themeButton {
     display: none;
   }
-} */
+}
 
 .menuItem:hover .link {
   background: var(--bg-secondary);

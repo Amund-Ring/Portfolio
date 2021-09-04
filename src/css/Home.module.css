@@ -10,7 +10,6 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
-
   /* border: 1px solid red; */
 }
 
@@ -20,12 +19,11 @@
 }
 
 .text h1 {
-  font-size: 80px;
+  font-size: 90px;
   letter-spacing: 8px;
   font-family: 'Norican', cursive;
   color: #5a9cf3;
-  text-shadow: +1px +1px #193e6e,
-               -1px -1px #193e6e;
+  text-shadow: +0.6px +0.6px #193e6e, -0.6px -0.6px #193e6e;
 }
 
 .text h3 {
@@ -38,4 +36,110 @@
   width: 40%;
   border-radius: 50%;
   border: 10px solid #347ad7;
+}
+
+@media all and (max-width: 1135px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .portrait {
+    order: 1;
+    width: 40%;
+  }
+
+  .text {
+    order: 2;
+  }
+
+  .text h1 {
+    font-size: 70px;
+  }
+
+  .text h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    margin-top: -70px;
+    width: 80%;
+    height: 80%;
+  }
+
+  .portrait {
+    width: 60%;
+  }
+
+  .text h1 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .text h1 {
+    font-size: 40px;
+  }
+
+  .text h3 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .portrait {
+    width: 70%;
+  }
+
+  .text h1 {
+    font-size: 35px;
+  }
+
+  .text h3 {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .portrait {
+    width: 70%;
+  }
+
+  .text h1 {
+    font-size: 30px;
+  }
+
+  .text h3 {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .portrait {
+    width: 70%;
+  }
+
+  .text h1 {
+    font-size: 30px;
+  }
+
+  .text h3 {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .portrait {
+    width: 70%;
+  }
+
+  .text h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .text h3 {
+    font-size: 10px;
+  }
 }

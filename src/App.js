@@ -10,6 +10,7 @@ function App() {
     <div className="app">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Main darkMode={darkMode} />
+      <div className="rectangle"></div>
     </div>
   );
 }

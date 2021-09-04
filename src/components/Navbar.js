@@ -14,8 +14,8 @@ function Navbar({ darkMode, setDarkMode }) {
   return (
     <nav className={styles.navbar}>
       <ul className={styles.navlist}>
-        <li className={styles.logo}>
-          <div className={styles.logoLink} onClick={scrollToTop}>
+        <li className={styles.logo} onClick={scrollToTop}>
+          <div className={styles.logoLink}>
             <span className={`${styles.linkText} ${styles.logoText}`}>
               Amund
             </span>
@@ -115,7 +115,7 @@ function Navbar({ darkMode, setDarkMode }) {
           </Link>
         </li>
 
-        <li className={styles.menuItem} id="theme-button">
+        <li className={styles.menuItem} id={styles.themeButton}>
           <div
             onClick={handleThemeClick}
             className={styles.link}

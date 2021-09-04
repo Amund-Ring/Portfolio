@@ -12,7 +12,7 @@ function Main({ darkMode }) {
       <Portfolio />
       <Contact />
 
-      <div className="rectangle"></div>
+      {/* <div className="rectangle"></div> */}
     </main>
   );
 }
