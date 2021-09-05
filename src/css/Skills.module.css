@@ -1,20 +1,17 @@
-.section {
-  display: grid;
-  place-items: center;
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
-.content {
-  width: 90%;
-  height: 90%;
-  padding: 100px;
-
-  display: grid;
-  grid-template-columns: 40% 40%;
-  align-items: center;
-  justify-content: center;
-  gap: 80px;
-
-  /* border: 2px solid red; */
+.title {
+  filter: brightness(1.6);
+  text-decoration: underline;
+  transform: translateY(-100px);
 }
 
 .left {
@@ -22,9 +19,6 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-
-  /* height: 60vh; */
-  /* border: 2px solid green; */
 }
 
 .skills {
@@ -44,38 +38,24 @@
 
 .button {
   width: 100%;
-  /* max-width: 350px; */
   max-width: 330px;
   height: 80px;
-  /* flex-grow: 2; */
   border-radius: 20px;
   background: #1380d7;
   color: white;
-  font-size: 1.3rem;
+  font-size: 20px;
   font-weight: bold;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.25) 3px 3px 3px;
-  /* max-height: 100px; */
-  /* min-height: 70px; */
 }
 
 button:hover {
-  /* background: #0e65ad; */
   cursor: pointer;
   filter: brightness(1.1);
 }
 
-.right {
-  /* height: 60vh; */
-
-  /* border: 2px solid green; */
-}
-
 .resume {
-  /* display: block; */
-  /* max-height: 60vh; */
-  max-width: 410px;
-  /* max-width: 400px; */
+  max-width: 370px;
   box-shadow: rgba(0, 0, 0, 0.25) 3px 3px 6px;
   width: 100%;
   height: 100%;
@@ -83,7 +63,65 @@ button:hover {
   overflow: hidden;
 }
 
-.resume:hover{
-  /* border: 3px solid red; */
+.resume:hover {
   filter: brightness(1.05);
+}
+
+@media only screen and (max-width: 1300px) {
+  .button {
+    width: 280px;
+    height: 70px;
+    font-size: 16px;
+  }
+
+  .skills {
+    width: 280px;
+  }
+
+  .resume {
+    width: 310px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .button {
+    width: 230px;
+    height: 70px;
+    font-size: 16px;
+  }
+
+  .skills {
+    width: 230px;
+  }
+
+  .resume {
+    width: 270px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  .title {
+    transform: translateY(0);
+    margin-bottom: 0;
+  }
+
+  .resume {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .resume {
+    width: 230px;
+  }
+
+  .button {
+    margin-top: 20px;
+  }
 }

@@ -4,6 +4,7 @@
   display: flex;
   justify-content: flex-start;
   transition: width 300ms ease;
+  z-index: 100;
 }
 
 .navlist {
@@ -35,9 +36,6 @@
   font-size: 1.5rem;
   letter-spacing: 0.2ch;
   width: 100%;
-
-  /* display: flex; */
-  /* justify-content: center; */
   cursor: pointer;
 }
 
@@ -49,11 +47,6 @@
 .navbar:hover .logo svg {
   transform: rotate(-180deg);
 }
-
-/* .logoLink {
-  background: chartreuse;
-  width: auto;
-} */
 
 .link,
 .logoLink {
@@ -128,19 +121,6 @@
     margin-top: 0;
   }
 
-  /* #themeButton svg {
-    min-width: 2.5rem;
-    max-width: 2.5rem;
-  } */
-
-  /* .darkMode {
-    background: greenyellow;
-  } */
-
-  .themeText {
-    /* background: pink; */
-  }
-
   h1 {
     font-size: 1.8rem;
   }
@@ -187,7 +167,6 @@
   }
 }
 
-/***** THEME *****/
 .off {
   display: none;
 }

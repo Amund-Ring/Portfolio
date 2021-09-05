@@ -8,7 +8,7 @@ function Main({ darkMode }) {
   return (
     <main className={`${darkMode ? 'darkMode' : ''}`}>
       <Home darkMode={darkMode} />
-      {/* <Skills /> */}
+      <Skills />
       <Portfolio />
       <Contact />
 

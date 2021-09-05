@@ -21,7 +21,7 @@ body {
   font-family: 'Open Sans';
   margin: 0;
   padding: 0;
-  background: #FFF6D4;
+  background: #fff6d4;
   color: var(--text-primary);
 }
 
@@ -34,14 +34,14 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #1166D6;
+  background: #1166d6;
 }
 
 main {
   margin-left: 5rem;
-  /* padding: 1rem; */
-  /* padding-bottom: 1000px; */
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 main p {
@@ -50,31 +50,33 @@ main p {
 }
 
 main section {
-  height: 100vh;
-
-  /* border: 4px solid rgb(42, 124, 10); */
-
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
 .darkMode {
   background-color: var(--bg-dark);
   color: var(--text-secondary);
+  filter: brightness(0.98);
 }
 
 .rectangle {
   width: 30%;
-  height: 100vh;
-  background: #88DAF7;
+  height: 100%;
+  background: #88daf7;
   position: fixed;
   right: 0;
   top: 0;
   z-index: -1;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1190px) {
   .rectangle {
     display: none;
   }
 }
-
-
