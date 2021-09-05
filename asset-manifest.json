@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.1d5ee939.chunk.css",
-    "main.js": "/Portfolio-Website/static/js/main.329b396e.chunk.js",
-    "main.js.map": "/Portfolio-Website/static/js/main.329b396e.chunk.js.map",
+    "main.css": "/Portfolio-Website/static/css/main.6a6f1374.chunk.css",
+    "main.js": "/Portfolio-Website/static/js/main.75289fd7.chunk.js",
+    "main.js.map": "/Portfolio-Website/static/js/main.75289fd7.chunk.js.map",
     "runtime-main.js": "/Portfolio-Website/static/js/runtime-main.f9e12549.js",
     "runtime-main.js.map": "/Portfolio-Website/static/js/runtime-main.f9e12549.js.map",
     "static/js/2.a0b18ba4.chunk.js": "/Portfolio-Website/static/js/2.a0b18ba4.chunk.js",
     "static/js/2.a0b18ba4.chunk.js.map": "/Portfolio-Website/static/js/2.a0b18ba4.chunk.js.map",
     "index.html": "/Portfolio-Website/index.html",
-    "static/css/main.1d5ee939.chunk.css.map": "/Portfolio-Website/static/css/main.1d5ee939.chunk.css.map",
+    "static/css/main.6a6f1374.chunk.css.map": "/Portfolio-Website/static/css/main.6a6f1374.chunk.css.map",
     "static/js/2.a0b18ba4.chunk.js.LICENSE.txt": "/Portfolio-Website/static/js/2.a0b18ba4.chunk.js.LICENSE.txt",
     "static/media/CV_Amund_Ring.889e6af5.pdf": "/Portfolio-Website/static/media/CV_Amund_Ring.889e6af5.pdf",
     "static/media/checkbox.485a4801.png": "/Portfolio-Website/static/media/checkbox.485a4801.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.f9e12549.js",
     "static/js/2.a0b18ba4.chunk.js",
-    "static/css/main.1d5ee939.chunk.css",
-    "static/js/main.329b396e.chunk.js"
+    "static/css/main.6a6f1374.chunk.css",
+    "static/js/main.75289fd7.chunk.js"
   ]
 }
