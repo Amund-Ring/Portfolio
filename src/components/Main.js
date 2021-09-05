@@ -8,11 +8,11 @@ function Main({ darkMode }) {
   return (
     <main className={`${darkMode ? 'darkMode' : ''}`}>
       <Home darkMode={darkMode} />
-      <Skills />
+      {/* <Skills /> */}
       <Portfolio />
       <Contact />
 
-      {/* <div className="rectangle"></div> */}
+      <div className="rectangle"></div>
     </main>
   );
 }

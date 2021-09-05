@@ -4,7 +4,11 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 
 function Navbar({ darkMode, setDarkMode }) {
   const scrollToTop = () => {
-    scroll.scrollToTop({ duration: 400 });
+    scroll.scrollToTop({ duration: 600 });
+  };
+
+  const scrollToBottom = () => {
+    scroll.scrollToBottom({ duration: 600 });
   };
 
   const handleThemeClick = () => {
@@ -92,9 +96,10 @@ function Navbar({ darkMode, setDarkMode }) {
         <li className={styles.menuItem}>
           <Link
             className={styles.link}
-            to="contact"
-            smooth={true}
-            duration={400}
+            // to="contact"
+            // smooth={true}
+            // duration={400}
+            onClick={scrollToBottom}
           >
             <svg
               aria-hidden="true"

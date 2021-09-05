@@ -12,6 +12,7 @@
 
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -68,6 +69,12 @@ main section {
   right: 0;
   top: 0;
   z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+  .rectangle {
+    display: none;
+  }
 }
 
 

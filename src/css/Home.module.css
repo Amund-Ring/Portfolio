@@ -36,6 +36,7 @@
   width: 40%;
   border-radius: 50%;
   border: 10px solid #347ad7;
+  box-sizing:border-box;
 }
 
 @media all and (max-width: 1135px) {
@@ -78,60 +79,63 @@
 }
 
 @media only screen and (max-width: 490px) {
+
+  .portrait {
+    width: 200px;
+    height: 200px;
+    transform: translateY(-30px);
+  }
+
   .text h1 {
     font-size: 40px;
+    transform: translateY(-30px);
   }
 
   .text h3 {
     font-size: 16px;
+    transform: translateY(-30px);
   }
 }
 
 @media only screen and (max-width: 365px) {
   .portrait {
     width: 70%;
+    transform: translateY(-20px);
   }
 
   .text h1 {
     font-size: 35px;
+    transform: translateY(-20px);
   }
 
   .text h3 {
     font-size: 14px;
+    transform: translateY(-20px);
   }
 }
 
 @media only screen and (max-width: 330px) {
   .portrait {
-    width: 70%;
+    width: 200px;
+    height: 200px;
+    transform: translateY(-0px);
   }
 
   .text h1 {
     font-size: 30px;
+    transform: translateY(-0px);
   }
 
   .text h3 {
     font-size: 12px;
-  }
-}
-
-@media only screen and (max-width: 330px) {
-  .portrait {
-    width: 70%;
-  }
-
-  .text h1 {
-    font-size: 30px;
-  }
-
-  .text h3 {
-    font-size: 12px;
+    transform: translateY(-0px);
   }
 }
 
 @media only screen and (max-width: 300px) {
   .portrait {
-    width: 70%;
+    width: 200px;
+    height: 200px;
   }
 
   .text h1 {
