@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.ba8b94ac.chunk.css",
-    "main.js": "/Portfolio-Website/static/js/main.54e3ffe6.chunk.js",
-    "main.js.map": "/Portfolio-Website/static/js/main.54e3ffe6.chunk.js.map",
+    "main.css": "/Portfolio-Website/static/css/main.2c367b90.chunk.css",
+    "main.js": "/Portfolio-Website/static/js/main.5c9c293b.chunk.js",
+    "main.js.map": "/Portfolio-Website/static/js/main.5c9c293b.chunk.js.map",
     "runtime-main.js": "/Portfolio-Website/static/js/runtime-main.f9e12549.js",
     "runtime-main.js.map": "/Portfolio-Website/static/js/runtime-main.f9e12549.js.map",
     "static/js/2.a0b18ba4.chunk.js": "/Portfolio-Website/static/js/2.a0b18ba4.chunk.js",
     "static/js/2.a0b18ba4.chunk.js.map": "/Portfolio-Website/static/js/2.a0b18ba4.chunk.js.map",
     "index.html": "/Portfolio-Website/index.html",
-    "static/css/main.ba8b94ac.chunk.css.map": "/Portfolio-Website/static/css/main.ba8b94ac.chunk.css.map",
+    "static/css/main.2c367b90.chunk.css.map": "/Portfolio-Website/static/css/main.2c367b90.chunk.css.map",
     "static/js/2.a0b18ba4.chunk.js.LICENSE.txt": "/Portfolio-Website/static/js/2.a0b18ba4.chunk.js.LICENSE.txt",
     "static/media/CV_Amund_Ring.889e6af5.pdf": "/Portfolio-Website/static/media/CV_Amund_Ring.889e6af5.pdf",
+    "static/media/checkbox.485a4801.png": "/Portfolio-Website/static/media/checkbox.485a4801.png",
     "static/media/contact.aecbdff7.png": "/Portfolio-Website/static/media/contact.aecbdff7.png",
+    "static/media/dreamstream.2d9d428a.png": "/Portfolio-Website/static/media/dreamstream.2d9d428a.png",
     "static/media/portrait.c3b2eda3.jpeg": "/Portfolio-Website/static/media/portrait.c3b2eda3.jpeg",
     "static/media/resume.6093e6c6.jpg": "/Portfolio-Website/static/media/resume.6093e6c6.jpg",
-    "static/media/skills.62d027d6.png": "/Portfolio-Website/static/media/skills.62d027d6.png"
+    "static/media/skills.62d027d6.png": "/Portfolio-Website/static/media/skills.62d027d6.png",
+    "static/media/todo.acb23edd.png": "/Portfolio-Website/static/media/todo.acb23edd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f9e12549.js",
     "static/js/2.a0b18ba4.chunk.js",
-    "static/css/main.ba8b94ac.chunk.css",
-    "static/js/main.54e3ffe6.chunk.js"
+    "static/css/main.2c367b90.chunk.css",
+    "static/js/main.5c9c293b.chunk.js"
   ]
 }
