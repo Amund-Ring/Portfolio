@@ -11,12 +11,22 @@ function Skills() {
       <div className={styles.content}>
         <div className={styles.left}>
           <img src={skills} alt="Skills" className={styles.skills} />
-          <a href={pdf} target="_blank" className={styles.link}>
+          <a
+            href={pdf}
+            target="_blank"
+            rel="noreferrer"
+            className={styles.link}
+          >
             <button className={styles.button}>Download Resume</button>
           </a>
         </div>
         <div className={styles.right}>
-          <a href={pdf} target="_blank" className={styles.link}>
+          <a
+            href={pdf}
+            target="_blank"
+            rel="noreferrer"
+            className={styles.link}
+          >
             <img src={resume} alt="resume" className={styles.resume} />
           </a>
         </div>

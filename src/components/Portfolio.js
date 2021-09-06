@@ -16,6 +16,7 @@ function Portfolio() {
           <a
             href="https://github.com/Amund-Ring/Checkbox-Fitness"
             target="_blank"
+            rel="noreferrer"
           >
             <img src={checkbox} alt="Checkbox Fitness App" />
           </a>
@@ -24,6 +25,7 @@ function Portfolio() {
             <a
               href="https://github.com/Amund-Ring/Checkbox-Fitness"
               target="_blank"
+              rel="noreferrer"
             >
               Code on GitHub
             </a>
@@ -36,6 +38,7 @@ function Portfolio() {
           <a
             href="https://github.com/Amund-Ring/Fun-React-Todo-App"
             target="_blank"
+            rel="noreferrer"
           >
             <img src={todo} alt="Todo App" />
           </a>
@@ -44,6 +47,7 @@ function Portfolio() {
             <a
               href="https://github.com/Amund-Ring/Fun-React-Todo-App"
               target="_blank"
+              rel="noreferrer"
             >
               Code on GitHub
             </a>
@@ -56,6 +60,7 @@ function Portfolio() {
           <a
             href="https://github.com/Mob-the-Builders/dream-stream"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               src={dreamstream}
@@ -68,6 +73,7 @@ function Portfolio() {
             <a
               href="https://github.com/Mob-the-Builders/dream-stream"
               target="_blank"
+              rel="noreferrer"
             >
               Code on GitHub
             </a>
