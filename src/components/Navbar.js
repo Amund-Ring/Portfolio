@@ -28,7 +28,7 @@ function Navbar({ darkMode, setDarkMode }) {
               focusable="false"
               data-prefix="fas"
               data-icon="angle-double-right"
-              class="svg-inline--fa fa-angle-double-right fa-w-14"
+              className="svg-inline--fa fa-angle-double-right fa-w-14"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -79,7 +79,7 @@ function Navbar({ darkMode, setDarkMode }) {
               focusable="false"
               data-prefix="fas"
               data-icon="images"
-              class="svg-inline--fa fa-images fa-w-18"
+              className="svg-inline--fa fa-images fa-w-18"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 576 512"
@@ -96,9 +96,7 @@ function Navbar({ darkMode, setDarkMode }) {
         <li className={styles.menuItem}>
           <Link
             className={styles.link}
-            // to="contact"
-            // smooth={true}
-            // duration={400}
+            to="contact"
             onClick={scrollToBottom}
           >
             <svg
@@ -106,7 +104,7 @@ function Navbar({ darkMode, setDarkMode }) {
               focusable="false"
               data-prefix="fas"
               data-icon="user-astronaut"
-              class="svg-inline--fa fa-user-astronaut fa-w-14"
+              className="svg-inline--fa fa-user-astronaut fa-w-14"
               role="img"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
