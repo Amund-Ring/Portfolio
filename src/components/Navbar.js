@@ -1,14 +1,14 @@
 import React from 'react';
 import styles from '../css/Navbar.module.css';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link, animateScroll } from 'react-scroll';
 
 function Navbar({ darkMode, setDarkMode }) {
   const scrollToTop = () => {
-    scroll.scrollToTop({ duration: 600 });
+    animateScroll.scrollToTop({ duration: 600 });
   };
 
   const scrollToBottom = () => {
-    scroll.scrollToBottom({ duration: 600 });
+    animateScroll.scrollToBottom({ duration: 600 });
   };
 
   const handleThemeClick = () => {
