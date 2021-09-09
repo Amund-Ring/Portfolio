@@ -7,7 +7,7 @@ function Contact() {
     <section className={styles.section} id="contact">
       <div className={styles.content}>
         <img src={contact} alt="" className={styles.contact} />
-      </div>c
+      </div>
     </section>
   );
 }
