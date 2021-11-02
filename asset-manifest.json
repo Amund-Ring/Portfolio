@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.adb5a92c.chunk.css",
-    "main.js": "/Portfolio-Website/static/js/main.a850e2bb.chunk.js",
-    "main.js.map": "/Portfolio-Website/static/js/main.a850e2bb.chunk.js.map",
+    "main.css": "/Portfolio-Website/static/css/main.d660b521.chunk.css",
+    "main.js": "/Portfolio-Website/static/js/main.d14ee904.chunk.js",
+    "main.js.map": "/Portfolio-Website/static/js/main.d14ee904.chunk.js.map",
     "runtime-main.js": "/Portfolio-Website/static/js/runtime-main.f9e12549.js",
     "runtime-main.js.map": "/Portfolio-Website/static/js/runtime-main.f9e12549.js.map",
-    "static/js/2.eca4b716.chunk.js": "/Portfolio-Website/static/js/2.eca4b716.chunk.js",
-    "static/js/2.eca4b716.chunk.js.map": "/Portfolio-Website/static/js/2.eca4b716.chunk.js.map",
+    "static/js/2.2990ee25.chunk.js": "/Portfolio-Website/static/js/2.2990ee25.chunk.js",
+    "static/js/2.2990ee25.chunk.js.map": "/Portfolio-Website/static/js/2.2990ee25.chunk.js.map",
     "index.html": "/Portfolio-Website/index.html",
-    "static/css/main.adb5a92c.chunk.css.map": "/Portfolio-Website/static/css/main.adb5a92c.chunk.css.map",
-    "static/js/2.eca4b716.chunk.js.LICENSE.txt": "/Portfolio-Website/static/js/2.eca4b716.chunk.js.LICENSE.txt",
+    "static/css/main.d660b521.chunk.css.map": "/Portfolio-Website/static/css/main.d660b521.chunk.css.map",
+    "static/js/2.2990ee25.chunk.js.LICENSE.txt": "/Portfolio-Website/static/js/2.2990ee25.chunk.js.LICENSE.txt",
     "static/media/CV_Amund_Ring.889e6af5.pdf": "/Portfolio-Website/static/media/CV_Amund_Ring.889e6af5.pdf",
     "static/media/checkbox.485a4801.png": "/Portfolio-Website/static/media/checkbox.485a4801.png",
     "static/media/contact.aecbdff7.png": "/Portfolio-Website/static/media/contact.aecbdff7.png",
@@ -17,12 +17,13 @@
     "static/media/portrait.c3b2eda3.jpeg": "/Portfolio-Website/static/media/portrait.c3b2eda3.jpeg",
     "static/media/resume.6093e6c6.jpg": "/Portfolio-Website/static/media/resume.6093e6c6.jpg",
     "static/media/skills.62d027d6.png": "/Portfolio-Website/static/media/skills.62d027d6.png",
+    "static/media/tech_shop.d7c0a377.png": "/Portfolio-Website/static/media/tech_shop.d7c0a377.png",
     "static/media/todo.acb23edd.png": "/Portfolio-Website/static/media/todo.acb23edd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f9e12549.js",
-    "static/js/2.eca4b716.chunk.js",
-    "static/css/main.adb5a92c.chunk.css",
-    "static/js/main.a850e2bb.chunk.js"
+    "static/js/2.2990ee25.chunk.js",
+    "static/css/main.d660b521.chunk.css",
+    "static/js/main.d14ee904.chunk.js"
   ]
 }
