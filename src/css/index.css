@@ -44,11 +44,6 @@ main {
   flex-direction: column;
 }
 
-main p {
-  margin-top: 20px;
-  text-align: justify;
-}
-
 main section {
   min-height: 100vh;
   display: flex;

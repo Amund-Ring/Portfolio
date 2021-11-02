@@ -7,7 +7,7 @@ import pdf from '../img/CV_Amund_Ring.pdf';
 function Skills() {
   return (
     <section className={styles.section} id="skills">
-      <h2 className={styles.title}>Skills</h2>
+      {/* <h2 className={styles.title}>Skills</h2> */}
       <div className={styles.content}>
         <div className={styles.left}>
           <img src={skills} alt="Skills" className={styles.skills} />

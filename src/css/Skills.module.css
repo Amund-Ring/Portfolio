@@ -23,7 +23,7 @@
 
 .skills {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.25) 3px 3px 3px;
   max-width: 330px;
 }
@@ -40,7 +40,7 @@
   width: 100%;
   max-width: 330px;
   height: 80px;
-  border-radius: 20px;
+  border-radius: 10px;
   background: #1380d7;
   color: white;
   font-size: 20px;
