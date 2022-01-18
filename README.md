@@ -1,1 +1,1 @@
-[My Portfolio Website](https://amund-ring.github.io/Portfolio-Website/)
+[www.amundring.no](www.amundring.no)
