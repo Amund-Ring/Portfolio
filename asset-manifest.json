@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.d660b521.chunk.css",
-    "main.js": "/Portfolio-Website/static/js/main.d14ee904.chunk.js",
-    "main.js.map": "/Portfolio-Website/static/js/main.d14ee904.chunk.js.map",
-    "runtime-main.js": "/Portfolio-Website/static/js/runtime-main.f9e12549.js",
-    "runtime-main.js.map": "/Portfolio-Website/static/js/runtime-main.f9e12549.js.map",
-    "static/js/2.2990ee25.chunk.js": "/Portfolio-Website/static/js/2.2990ee25.chunk.js",
-    "static/js/2.2990ee25.chunk.js.map": "/Portfolio-Website/static/js/2.2990ee25.chunk.js.map",
-    "index.html": "/Portfolio-Website/index.html",
-    "static/css/main.d660b521.chunk.css.map": "/Portfolio-Website/static/css/main.d660b521.chunk.css.map",
-    "static/js/2.2990ee25.chunk.js.LICENSE.txt": "/Portfolio-Website/static/js/2.2990ee25.chunk.js.LICENSE.txt",
-    "static/media/CV_Amund_Ring.889e6af5.pdf": "/Portfolio-Website/static/media/CV_Amund_Ring.889e6af5.pdf",
-    "static/media/checkbox.485a4801.png": "/Portfolio-Website/static/media/checkbox.485a4801.png",
-    "static/media/contact.aecbdff7.png": "/Portfolio-Website/static/media/contact.aecbdff7.png",
-    "static/media/dreamstream.2d9d428a.png": "/Portfolio-Website/static/media/dreamstream.2d9d428a.png",
-    "static/media/portrait.c3b2eda3.jpeg": "/Portfolio-Website/static/media/portrait.c3b2eda3.jpeg",
-    "static/media/resume.6093e6c6.jpg": "/Portfolio-Website/static/media/resume.6093e6c6.jpg",
-    "static/media/skills.62d027d6.png": "/Portfolio-Website/static/media/skills.62d027d6.png",
-    "static/media/tech_shop.d7c0a377.png": "/Portfolio-Website/static/media/tech_shop.d7c0a377.png",
-    "static/media/todo.acb23edd.png": "/Portfolio-Website/static/media/todo.acb23edd.png"
+    "main.css": "/www.amundring.no/static/css/main.d660b521.chunk.css",
+    "main.js": "/www.amundring.no/static/js/main.a5693ad1.chunk.js",
+    "main.js.map": "/www.amundring.no/static/js/main.a5693ad1.chunk.js.map",
+    "runtime-main.js": "/www.amundring.no/static/js/runtime-main.2a0e129d.js",
+    "runtime-main.js.map": "/www.amundring.no/static/js/runtime-main.2a0e129d.js.map",
+    "static/js/2.2990ee25.chunk.js": "/www.amundring.no/static/js/2.2990ee25.chunk.js",
+    "static/js/2.2990ee25.chunk.js.map": "/www.amundring.no/static/js/2.2990ee25.chunk.js.map",
+    "index.html": "/www.amundring.no/index.html",
+    "static/css/main.d660b521.chunk.css.map": "/www.amundring.no/static/css/main.d660b521.chunk.css.map",
+    "static/js/2.2990ee25.chunk.js.LICENSE.txt": "/www.amundring.no/static/js/2.2990ee25.chunk.js.LICENSE.txt",
+    "static/media/CV_Amund_Ring.889e6af5.pdf": "/www.amundring.no/static/media/CV_Amund_Ring.889e6af5.pdf",
+    "static/media/checkbox.485a4801.png": "/www.amundring.no/static/media/checkbox.485a4801.png",
+    "static/media/contact.aecbdff7.png": "/www.amundring.no/static/media/contact.aecbdff7.png",
+    "static/media/dreamstream.2d9d428a.png": "/www.amundring.no/static/media/dreamstream.2d9d428a.png",
+    "static/media/portrait.c3b2eda3.jpeg": "/www.amundring.no/static/media/portrait.c3b2eda3.jpeg",
+    "static/media/resume.6093e6c6.jpg": "/www.amundring.no/static/media/resume.6093e6c6.jpg",
+    "static/media/skills.62d027d6.png": "/www.amundring.no/static/media/skills.62d027d6.png",
+    "static/media/tech_shop.d7c0a377.png": "/www.amundring.no/static/media/tech_shop.d7c0a377.png",
+    "static/media/todo.acb23edd.png": "/www.amundring.no/static/media/todo.acb23edd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9e12549.js",
+    "static/js/runtime-main.2a0e129d.js",
     "static/js/2.2990ee25.chunk.js",
     "static/css/main.d660b521.chunk.css",
-    "static/js/main.d14ee904.chunk.js"
+    "static/js/main.a5693ad1.chunk.js"
   ]
 }
