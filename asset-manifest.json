@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/www.amundring.no/static/css/main.d660b521.chunk.css",
-    "main.js": "/www.amundring.no/static/js/main.a5693ad1.chunk.js",
-    "main.js.map": "/www.amundring.no/static/js/main.a5693ad1.chunk.js.map",
-    "runtime-main.js": "/www.amundring.no/static/js/runtime-main.2a0e129d.js",
-    "runtime-main.js.map": "/www.amundring.no/static/js/runtime-main.2a0e129d.js.map",
-    "static/js/2.2990ee25.chunk.js": "/www.amundring.no/static/js/2.2990ee25.chunk.js",
-    "static/js/2.2990ee25.chunk.js.map": "/www.amundring.no/static/js/2.2990ee25.chunk.js.map",
+    "main.js": "/www.amundring.no/static/js/main.edc84de3.chunk.js",
+    "main.js.map": "/www.amundring.no/static/js/main.edc84de3.chunk.js.map",
+    "runtime-main.js": "/www.amundring.no/static/js/runtime-main.94fd5e6b.js",
+    "runtime-main.js.map": "/www.amundring.no/static/js/runtime-main.94fd5e6b.js.map",
+    "static/js/2.a767b817.chunk.js": "/www.amundring.no/static/js/2.a767b817.chunk.js",
+    "static/js/2.a767b817.chunk.js.map": "/www.amundring.no/static/js/2.a767b817.chunk.js.map",
     "index.html": "/www.amundring.no/index.html",
     "static/css/main.d660b521.chunk.css.map": "/www.amundring.no/static/css/main.d660b521.chunk.css.map",
-    "static/js/2.2990ee25.chunk.js.LICENSE.txt": "/www.amundring.no/static/js/2.2990ee25.chunk.js.LICENSE.txt",
+    "static/js/2.a767b817.chunk.js.LICENSE.txt": "/www.amundring.no/static/js/2.a767b817.chunk.js.LICENSE.txt",
     "static/media/CV_Amund_Ring.889e6af5.pdf": "/www.amundring.no/static/media/CV_Amund_Ring.889e6af5.pdf",
     "static/media/checkbox.485a4801.png": "/www.amundring.no/static/media/checkbox.485a4801.png",
     "static/media/contact.aecbdff7.png": "/www.amundring.no/static/media/contact.aecbdff7.png",
@@ -21,9 +21,9 @@
     "static/media/todo.acb23edd.png": "/www.amundring.no/static/media/todo.acb23edd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2a0e129d.js",
-    "static/js/2.2990ee25.chunk.js",
+    "static/js/runtime-main.94fd5e6b.js",
+    "static/js/2.a767b817.chunk.js",
     "static/css/main.d660b521.chunk.css",
-    "static/js/main.a5693ad1.chunk.js"
+    "static/js/main.edc84de3.chunk.js"
   ]
 }
