@@ -19,7 +19,7 @@ function Portfolio() {
     {
       name: 'DoneWithIt',
       image: 'donewithit.png',
-      description: "A marketplace for selling the stuff you don't need",
+      description: "A marketplace for selling stuff",
       github: 'https://github.com/Amund-Ring/DoneWithIt'
     },
     {
