@@ -1,13 +1,12 @@
 import React from 'react';
-import styles from '../css/Skills.module.css';
-import skills from '../img/skills.png';
-import resume from '../img/resume.jpg';
-import pdf from '../img/CV_Amund_Ring.pdf';
+import styles from '../styles/Skills.module.css';
+import skills from '../assets/skills.png';
+import resume from '../assets/resume.jpg';
+import pdf from '../assets/CV_Amund_Ring.pdf';
 
 function Skills() {
   return (
     <section className={styles.section} id="skills">
-      {/* <h2 className={styles.title}>Skills</h2> */}
       <div className={styles.content}>
         <div className={styles.left}>
           <img src={skills} alt="Skills" className={styles.skills} />

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../css/Navbar.module.css';
+import styles from '../styles/Navbar.module.css';
 import { Link, animateScroll } from 'react-scroll';
 
 function Navbar({ darkMode, setDarkMode }) {

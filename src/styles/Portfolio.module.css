@@ -1,0 +1,30 @@
+.section {
+  min-height: 100vh;
+  padding: 30px;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 70px;
+  align-content: center; */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  justify-items: center;
+  align-content: center;
+  gap: 20px;
+
+
+  /* justify-content: center;
+  align-items: center; */
+  border: 2px solid red;
+}
+
+
+@media only screen and (min-width: 1600px) {
+  .section {
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 50px;
+  }
+
+}

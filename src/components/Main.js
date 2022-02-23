@@ -11,8 +11,6 @@ function Main({ darkMode }) {
       <Skills />
       <Portfolio />
       <Contact />
-
-      <div className="rectangle"></div>
     </main>
   );
 }

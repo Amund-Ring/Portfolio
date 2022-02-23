@@ -21,8 +21,9 @@ body {
   font-family: 'Open Sans';
   margin: 0;
   padding: 0;
-  background: #fef5b6;
   color: var(--text-primary);
+  background: #fef5b6;
+  background: linear-gradient(94deg, rgb(248, 242, 191) 0%, rgb(253, 235, 153) 100%);
 }
 
 body::-webkit-scrollbar {
@@ -56,18 +57,8 @@ main section {
 
 .darkMode {
   background-color: var(--bg-dark);
-  color: var(--text-secondary);
+  /* color: var(--text-secondary); */
   filter: brightness(0.98);
-}
-
-.rectangle {
-  width: 30%;
-  height: 100%;
-  background: #88daf7;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: -1;
 }
 
 @media only screen and (max-width: 1190px) {

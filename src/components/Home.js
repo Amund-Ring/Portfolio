@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from '../css/Home.module.css';
-import portrait from '../img/portrait.jpeg';
+import styles from '../styles/Home.module.css';
+import portrait from '../assets/portrait.jpeg';
 
 function Home({ darkMode }) {
   return (
@@ -8,7 +8,7 @@ function Home({ darkMode }) {
       <div className={styles.content}>
         <div className={styles.text}>
           <h1>Amund Ring</h1>
-          <h3 className={`${darkMode ? styles.text.darkMode : ''}`}>
+          <h3 className={`${darkMode ? styles.darkMode : ''}`}>
             Full Stack JavaScript Developer
           </h3>
         </div>
