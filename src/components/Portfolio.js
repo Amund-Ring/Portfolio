@@ -11,6 +11,12 @@ function Portfolio() {
       github: 'https://github.com/Amund-Ring/Clever-Clothing'
     },
     {
+      name: 'NextJS Pokedex',
+      image: 'pokedex.png',
+      description: 'Pokedex in NextJS and Tailwind CSS',
+      github: 'https://github.com/Amund-Ring/NextJS-Pokedex'
+    },
+    {
       name: "Let's do this",
       image: 'letsdothis.png',
       description: 'Todo list application in React Native',
@@ -50,8 +56,8 @@ function Portfolio() {
 
   return (
     <section className={styles.section} id='portfolio'>
-      {projects.map(project => (
-        <ProjectCard project={project} />
+      {projects.map((project, index) => (
+        <ProjectCard project={project} key={index} />
       ))}
     </section>
   );
