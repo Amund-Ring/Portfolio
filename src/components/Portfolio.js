@@ -5,6 +5,12 @@ import ProjectCard from './ProjectCard';
 function Portfolio() {
   const projects = [
     {
+      name: "ACIM Lessons",
+      image: 'acim.png',
+      description: 'Workbook app with reminders',
+      github: 'https://github.com/Amund-Ring/ACIM-Lessons'
+    },
+    {
       name: 'Clever Clothing',
       image: 'cleverclothing.png',
       description: 'Clothing store website',
@@ -29,22 +35,16 @@ function Portfolio() {
       github: 'https://github.com/Amund-Ring/DoneWithIt'
     },
     {
-      name: 'Checkbox Fitness',
-      image: 'checkbox.png',
-      description: 'Casual weekly exercise tracker',
-      github: 'https://github.com/Amund-Ring/Checkbox-Fitness'
-    },
-    {
       name: 'Tech Shop',
       image: 'techshop.png',
       description: 'A minimal online shopping solution',
       github: 'https://github.com/Amund-Ring/Tech-Shop'
     },
     {
-      name: "Let's do this - Web version",
-      image: 'letsdothisweb.png',
-      description: 'Fun todo app with emoji support',
-      github: 'https://github.com/Amund-Ring/Lets-Do-This-Web'
+      name: 'Checkbox Fitness',
+      image: 'checkbox.png',
+      description: 'Casual weekly exercise tracker',
+      github: 'https://github.com/Amund-Ring/Checkbox-Fitness'
     },
     {
       name: 'Dream Stream',
