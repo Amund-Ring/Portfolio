@@ -11,7 +11,7 @@ const Container = styled.div`
   // min-height: 800vh;
   // margin-bottom: 100vh;
 
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* border: 5px dashed orange; */
 `;
 
