@@ -27,20 +27,20 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <MediaQuery query="(min-device-width: 1224px)">
+        {/* <MediaQuery query="(min-device-width: 1224px)"> */}
           <WideScreenHero />
           <WideScreenWork />
           <WideScreenSkills />
           <WideScreenContact />
-        </MediaQuery>
+        {/* </MediaQuery>
         <MediaQuery query="(max-device-width: 1224px)">
           
           <React.Fragment></React.Fragment>
-          {/* <MobileHero />
+          <MobileHero />
           <MobileWork />
           <MobileSkills />
-          <MobileContact /> */}
-        </MediaQuery>
+          <MobileContact />
+        </MediaQuery> */}
         <GlobalStyle />
       </React.Fragment>
     );
