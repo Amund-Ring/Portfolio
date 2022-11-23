@@ -11,7 +11,8 @@ const Container = styled.div`
   // min-height: 800vh;
   // margin-bottom: 100vh;
 
-  // border: 5px dashed orange;
+  overflow-x: hidden;
+  /* border: 5px dashed orange; */
 `;
 
 class Work extends Component {

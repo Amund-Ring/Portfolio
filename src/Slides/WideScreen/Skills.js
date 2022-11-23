@@ -20,6 +20,7 @@ const Container = styled.div`
   margin-top: 20vh;
   padding-top: 21%;
 
+  overflow-x: hidden;
   /* border: 4px solid orange; */
 `;
 

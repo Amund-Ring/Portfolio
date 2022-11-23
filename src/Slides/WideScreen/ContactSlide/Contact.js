@@ -17,6 +17,7 @@ const Container = styled.section`
     margin-top: 30vh;
     margin-bottom: 17vh;
 
+    overflow-x: hidden;
     /* border: 4px solid green; */
 `;
 
