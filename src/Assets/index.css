@@ -1,0 +1,79 @@
+@font-face {
+font-family: 'AvenirLight';
+src: url('./Fonts/Avenir/Avenir-Light-07.ttf');
+}
+
+@font-face {
+font-family: 'AvenirRoman';
+src: url('./Fonts/Avenir/Avenir-Roman-12.ttf');
+}
+
+@font-face {
+font-family: 'AvenirBook';
+src: url('./Fonts/Avenir/Avenir-Book-01.ttf');
+}
+
+@font-face {
+font-family: 'AvenirMedium';
+src: url('./Fonts/Avenir/Avenir-Medium-09.ttf');
+}
+
+@font-face {
+font-family: 'AvenirHeavy';
+src: url('./Fonts/Avenir/Avenir-Heavy-05.ttf');
+}
+
+@font-face {
+font-family: 'Valencia';
+src: url('./Fonts/Valencia/Valencia.ttf');
+}
+
+@font-face {
+font-family: 'Pacifico';
+src: url('./Fonts/Pacifico/Pacifico.ttf');
+}
+
+@font-face {
+  font-family: 'SF-Compact-Rounded-Regular';
+  src: url('./Fonts/SF-Compact/SF-Compact-Rounded-Regular.otf');
+}
+
+@font-face {
+  font-family: 'SF-Compact-Rounded-Light';
+  src: url('./Fonts/SF-Compact/SF-Compact-Rounded-Light.otf');
+}
+
+@font-face {
+  font-family: 'SF-Compact-Text-Medium';
+  src: url('./Fonts/SF-Compact/SF-Compact-Text-Medium.otf');
+}
+
+@font-face {
+  font-family: 'SF-Compact-Rounded-Medium';
+  src: url('./Fonts/SF-Compact/SF-Compact-Rounded-Medium.otf');
+}
+
+@font-face {
+  font-family: 'SF-Compact-Display-Medium';
+  src: url('./Fonts/SF-Compact/SF-Compact-Display-Medium.otf');
+}
+
+@font-face {
+  font-family: 'SF-Pro-Rounded-Heavy';
+  src: url('./Fonts/SF-Compact/SF-Pro-Rounded-Heavy.otf');
+}
+
+@font-face {
+  font-family: 'SF-Compact-Display-Semibold';
+  src: url('./Fonts/SF-Compact/SF-Compact-Display-Semibold.otf');
+}
+
+@font-face {
+  font-family: 'SF-Compact';
+  src: url('./Fonts/SF-Compact/SF-Compact.ttf');
+}
+
+@font-face {
+  font-family: 'SF-Compact-Text-Light';
+  src: url('./Fonts/SF-Compact/SF-Compact-Text-Light.otf');
+}
