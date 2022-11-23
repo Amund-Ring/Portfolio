@@ -18,8 +18,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "deploy": "gh-pages -d build"
+    "build": "parcel dist src/index.html",
+    "deploy": "gh-pages -d dist"
 },
   "devDependencies": {
     "gh-pages": "^3.2.3",
