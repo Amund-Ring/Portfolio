@@ -8,8 +8,7 @@ import screenshot4 from '../../../../Assets/Images/DoneWithIt/screenshot4.png';
 
 const Screenshot1 = styled.img.attrs({
   style: ({ scroll }) => ({
-    // transform: `translate(0px,-${scroll * 15}%)`
-    transform: `translate(0px,-${scroll * 5}%) scale(0.95)`
+    transform: `translate(0px,-${scroll * 5}%) scale(0.90)`
   })
 })`
   transition: transform 0.2s ease-out;
@@ -23,8 +22,7 @@ const Screenshot1 = styled.img.attrs({
 
 const Screenshot2 = styled.img.attrs({
   style: ({ scroll }) => ({
-    // transform: `translate(0px,-${scroll * 8}%) scale(0.9)`
-    transform: `translate(0px,-${scroll * 6}%) scale(0.9)`
+    transform: `translate(0px,-${scroll * 6}%) scale(0.85)`
   })
 })`
   transition: transform 0.2s ease-out;
@@ -38,8 +36,7 @@ const Screenshot2 = styled.img.attrs({
 
 const Screenshot3 = styled.img.attrs({
   style: ({ scroll }) => ({
-    // transform: `translate(0px,-${scroll * 5}%) scale(0.7)`
-    transform: `translate(0px,-${scroll * 6.4}%) scale(0.8)`
+    transform: `translate(0px,-${scroll * 6.8}%) scale(0.75)`
   })
 })`
   transition: transform 0.2s ease-out;
@@ -53,8 +50,7 @@ const Screenshot3 = styled.img.attrs({
 
 const Screenshot4 = styled.img.attrs({
   style: ({ scroll }) => ({
-    // transform: `translate(0px,-${scroll * 2}%) scale(0.6)`
-    transform: `translate(0px,-${scroll * 7.5}%) scale(0.7)`
+    transform: `translate(0px,-${scroll * 8}%) scale(0.65)`
   })
 })`
   transition: transform 0.2s ease-out;

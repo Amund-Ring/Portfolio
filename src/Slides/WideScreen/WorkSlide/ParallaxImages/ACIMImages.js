@@ -47,8 +47,7 @@ const Screenshot2 = styled.img.attrs({
 
 const Screenshot3 = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${scroll * 6.4}%) scale(0.75)`
-    // transform: `translate(0px,-${scroll * 6.4}%) scale(0.8)`
+    transform: `translate(0px,-${scroll * 6.8}%) scale(0.75)`
   })
 })`
   transition: transform 0.2s ease-out;
@@ -65,8 +64,7 @@ const Screenshot3 = styled.img.attrs({
 
 const Screenshot4 = styled.img.attrs({
   style: ({ scroll }) => ({
-    // transform: `translate(0px,-${scroll * 7.5}%) scale(0.7)`
-    transform: `translate(0px,-${scroll * 7.5}%) scale(0.65)`
+    transform: `translate(0px,-${scroll * 8}%) scale(0.65)`
   })
 })`
   transition: transform 0.2s ease-out;

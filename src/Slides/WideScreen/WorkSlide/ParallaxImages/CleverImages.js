@@ -8,7 +8,7 @@ import screenshot3 from '../../../../Assets/Images/CleverClothing/screenshot3.pn
 
   const Screenshot1 = styled.img.attrs({
     style: ({ scroll }) => ({
-      transform: `translate(0px,-${(scroll) * 5}%) scale(0.55)`,
+      transform: `translate(0px,-${(scroll) * 5}%) scale(0.50)`,
     }),
   })`
   transition: transform 0.2s ease-out;
@@ -38,13 +38,13 @@ z-index: -1;
 
 const Screenshot3 = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 10}%) scale(0.43)`,
+    transform: `translate(0px,-${(scroll) * 10}%) scale(0.40)`,
   }),
 })`
 transition: transform 0.2s ease-out;
 position: absolute;
 bottom:-130vh;
-left: -12vw;
+left: -11.5vw;
 height: 80vh;
 z-index: -10;
 
