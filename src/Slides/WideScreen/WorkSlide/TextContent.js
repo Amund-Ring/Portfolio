@@ -17,16 +17,7 @@ const TextContainer = styled.section`
 `;
 
 const ProjectName = styled.div`
-
-
-  // font-family: 'SF-Compact-Rounded-Regular';
-  // font-family: 'SF-Compact-Display-Medium';
-  // font-family: 'SF-Compact-Display-Semibold';
-  
   font-family: 'AvenirHeavy';
-  // letter-spacing: -0.5px;
-
-
   color: ${colors.primary};
   cursor: pointer;
   @media ${device.laptop} {
@@ -48,7 +39,6 @@ const ProjectDesc = styled.div`
   font-family: 'SF-Compact-Text-Light';
   // font-family: 'AvenirBook';
 
-
   @media ${device.laptop} {
     font-size: 24px;
   }
@@ -61,30 +51,6 @@ const ProjectDesc = styled.div`
   /* border: 1px dashed black; */
 `;
 
-const WebLink = styled.div`
-  padding-top: 6%;
-
-
-  /* font-family: 'AvenirBook'; */
-  // font-family: 'SF-Compact-Rounded-Medium';
-  font-family: 'SF-Compact-Rounded-Regular';
-  // font-family: 'AvenirMedium';
-
-
-  cursor: pointer;
-  /* font-weight: 'bold'; */
-  color: ${colors.primary};
-  @media ${device.laptop} {
-    font-size: 32px;
-  }
-  @media ${device.laptopL} {
-    font-size: 34px;
-  }
-  @media ${device.desktop} {
-    font-size: 40px;
-  }
-  /* border: 1px dashed black; */
-`;
 
 const MyRole = styled.div`
   padding-top: 5%;
@@ -101,12 +67,26 @@ const MyRole = styled.div`
   /* border: 1px dashed black; */
 `;
 
-const ProjectID = styled.div`
+const WebLink = styled.div`
+  padding-top: 6%;
+  font-family: 'SF-Compact-Rounded-Regular';
+  cursor: pointer;
+  color: ${colors.primary};
+  @media ${device.laptop} {
+    font-size: 32px;
+  }
+  @media ${device.laptopL} {
+    font-size: 34px;
+  }
+  @media ${device.desktop} {
+    font-size: 40px;
+  }
+`;
 
+const ProjectID = styled.div`
   // font-family: 'AvenirHeavy';
   opacity: 0.8;
   font-family: 'SF-Compact-Rounded-Medium';
-
 
   @media ${device.laptop} {
     font-size: 25px;
@@ -286,7 +266,11 @@ class TextContent extends Component {
 
             {webLink && (
               <WebLink>
-                <BlockTextReveal refreshToggle={refreshToggle} inline={false} onClick={() => openInNewTab(webLink[0])}>
+                <BlockTextReveal
+                  refreshToggle={refreshToggle}
+                  inline={false}
+                  onClick={() => openInNewTab(webLink[0])}
+                >
                   {webLink[1]}
                 </BlockTextReveal>
               </WebLink>

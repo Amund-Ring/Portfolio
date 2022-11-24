@@ -5,7 +5,7 @@ import ACIMImages from './ParallaxImages/ACIMImages';
 import LetsDoThisImages from './ParallaxImages/LetsDoThisImages';
 import CleverImages from './ParallaxImages/CleverImages';
 import DoneWithItImages from './ParallaxImages/DoneWithItImages';
-// import ResumeImage from './ParallaxImages/ResumeImage';
+
 
 const ImageContainer = styled.div`
 margin-left:50%;
@@ -106,15 +106,6 @@ class ImageContent extends Component {
             scrollHeight={scrollHeight}
           />
         </ImageBox>
-        {/* <ImageBox height={boxHeight}> */}
-          {/* <ResumeImage
-            boxHeight={boxHeight}
-            index={5}
-            scrollPercent={scrollPercent}
-            screenHeight={screenHeight}
-            scrollHeight={scrollHeight}
-          /> */}
-        {/* </ImageBox> */}
       </ImageContainer>
     );
   }

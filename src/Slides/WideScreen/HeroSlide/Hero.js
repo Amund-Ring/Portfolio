@@ -6,10 +6,6 @@ import AboutMe from './AboutMe';
 class Hero extends Component {
   render() {
     return (
-      // <div style={{border: '5px solid blue'}}>
-      //   <NameAndJobTitle />
-      //   <AboutMe />
-      // </div>
       <React.Fragment>
         <NameAndJobTitle />
         <AboutMe />

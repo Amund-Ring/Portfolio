@@ -3,42 +3,48 @@ import styled from 'styled-components';
 import device from '../../../Assets/Responsive/breakpoints';
 
 const Container = styled.section`
-  height: 50vh; /* Since pageSplitTime is 1.4 */
+  height: 40vh; /* Since pageSplitTime is 1.4 */
   width: 100%;
-  /* border: 1px solid blue; */
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
+
+  border: 3px solid orange;
+  margin-top: 5h;
 `;
 
 const AboutMeDescription = styled.span`
-  // font-family: 'SF-Compact-Rounded';
 
-  font-family: 'AvenirRoman';
+  font-family: 'SF-Compact-Rounded-Light';
 
   font-size: 24px;
-  text-align: center;
+  /* text-align: center; */
   color: #0047dc;
+  padding: 26px;
+  font-size: 16px;
+
+  border: 2px solid green;
+
   @media ${device.mobileS} {
-    padding: 30px;
+    padding: 28px;
     font-size: 20px;
   }
   @media ${device.mobileM} {
     padding: 30px;
-    font-size: 23px;
+    font-size: 20px;
   }
   @media ${device.mobileL} {
     padding: 30px;
-    font-size: 24px;
+    font-size: 20px;
   }
   @media ${device.tablet} {
     padding: 80px;
-    font-size: 40px;
+    font-size: 25px;
   }
   @media ${device.laptop} {
-    padding: 90px;
-    font-size: 45px;
+    padding: 80px;
+    font-size: 25px;
   }
 `;
 

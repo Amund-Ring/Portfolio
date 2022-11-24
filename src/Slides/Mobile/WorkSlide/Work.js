@@ -136,6 +136,8 @@ class Work extends Component {
         projectName={this.workDetails[slideNumber].projectName}
         projectDesc={this.workDetails[slideNumber].projectDesc}
         projectType={this.workDetails[slideNumber].projectType}
+        githubLink={this.workDetails[slideNumber].githubLink}
+        webLink={this.workDetails[slideNumber].webLink}
         roles={this.workDetails[slideNumber].roles}
         refreshToggle={refresh}
       />

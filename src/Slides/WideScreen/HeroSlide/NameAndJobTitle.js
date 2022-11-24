@@ -60,12 +60,10 @@ class NameAndJobTitle extends Component {
         {/* <NameReveal text="Amund Ring" fontFam="Valencia" timeDelay={500} /> */}
         <TitleReveal
           text='Software Developer'
-          // fontFam='AvenirRoman'
           fontFam='SF-Compact-Rounded-Light'
           timeDelay={1300}
         />
         <Chevron chevronVisible={this.state.chevronVisible}>
-          {/* {this.state.chevronVisible && <BsChevronCompactDown />} */}
            <BsChevronCompactDown />
         </Chevron>
       </Container>
