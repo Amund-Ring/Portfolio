@@ -29,7 +29,7 @@ const Container = styled.section`
 
 const SkillsTitle = styled.div`
   font-family: 'AvenirHeavy';
-  color: #000;
+  color: #e4e4e4;
   @media ${device.mobileS} {
     font-size: 40px;
   }
@@ -50,6 +50,8 @@ const SkillsTitle = styled.div`
 const SkillsList = styled.div`
   font-family: 'AvenirRoman';
   z-index: 1;
+
+  border: 2px solid green;
   
   @media ${device.mobileS} {
     margin-top: 30px;

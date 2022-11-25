@@ -13,12 +13,14 @@ const Container = styled.section`
     margin-top:20vh;
     height: 100vh;
     width:100%;
-    /* border: 1px solid blue; */
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-content: flex-start;
-    @media ${device.mobileS} {
+    align-content: center;
+
+    /* border: 3px solid blue; */
+
+    /* @media ${device.mobileS} {
     padding-left:60px;
     }
     @media ${device.mobileM} {
@@ -34,34 +36,38 @@ const Container = styled.section`
     @media ${device.laptop} {
     padding-left:120px;
     margin-bottom:120px;
-    }
+    } */
 `;
 
 const ContactTitle = styled.div`
   font-family: 'AvenirHeavy';
-  color: #000;
+  color: #e4e4e4;
+  font-size: 45px;
   @media ${device.mobileS} {
-    font-size: 40px;
+    font-size: 50px;
   }
   @media ${device.mobileM} {
     font-size: 50px;
   }
   @media ${device.mobileL} {
-    font-size: 60px;
+    font-size: 50px;
   }
   @media ${device.tablet} {
-    font-size: 90px;
+    font-size: 50px;
   }
   @media ${device.laptop} {
-    font-size: 95px;
+    font-size: 50px;
   }
 `;
 
 const SocialMediaIcons = styled.div`
-  /* border: 1px solid black; */
   z-index: 1;
   display: grid;
-  grid-template: 80px 80px 80px / 1fr 1fr;
+  grid-template-columns: auto auto;
+  margin-top: 60px;
+  grid-gap: 40px;
+  /* border: 2px solid black;l */
+
   @media ${device.mobileS} {
     margin-top: 60px;
     grid-gap: 40px;
@@ -75,12 +81,12 @@ const SocialMediaIcons = styled.div`
     grid-gap: 70px;
   }
   @media ${device.tablet} {
-    margin-top: 80px;
-    grid-gap: 170px;
+    margin-top: 60px;
+    grid-gap: 80px;
   }
   @media ${device.laptop} {
-    margin-top: 120px;
-    grid-gap: 200px;
+    margin-top: 60px;
+    grid-gap: 80px;
   }
 `;
 
