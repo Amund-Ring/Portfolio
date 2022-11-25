@@ -15,7 +15,7 @@ const TextContainer = styled.section`
   /* z-index: 10; */
   /* background: white; */
 
-  border: 2px dashed red;
+  /* border: 2px dashed red; */
 `;
 
 const ProjectName = styled.div`
@@ -147,7 +147,7 @@ const ProjectDetailsContainer = styled.div`
   padding-top: 5%;
   height: 100%;
 
-  border: 2px solid black;
+  /* border: 2px solid black; */
 `;
 
 const appearText = () => keyframes`

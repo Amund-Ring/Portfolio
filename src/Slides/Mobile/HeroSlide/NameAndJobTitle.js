@@ -14,7 +14,7 @@ const Container = styled.section`
     background-color: white;
     padding-bottom: 20%;
 
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 `;
 
 const Name = styled.div`

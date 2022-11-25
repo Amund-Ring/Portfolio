@@ -10,7 +10,7 @@ const Container = styled.section`
   justify-content: center;
   align-items: center;
 
-  border: 3px solid orange;
+  /* border: 3px solid orange; */
   margin-top: 5h;
 `;
 
@@ -24,7 +24,7 @@ const AboutMeDescription = styled.span`
   padding: 26px;
   font-size: 16px;
 
-  border: 2px solid green;
+  /* border: 2px solid green; */
 
   @media ${device.mobileS} {
     padding: 28px;
