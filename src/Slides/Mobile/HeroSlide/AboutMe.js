@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import device from '../../../Assets/Responsive/breakpoints';
+import colors from '../../../Assets/Colors';
 
 const Container = styled.section`
   height: 40vh; /* Since pageSplitTime is 1.4 */
@@ -20,7 +21,7 @@ const AboutMeDescription = styled.span`
 
   font-size: 24px;
   /* text-align: center; */
-  color: #0047dc;
+  color: ${colors.primary};
   padding: 26px;
   font-size: 16px;
 
