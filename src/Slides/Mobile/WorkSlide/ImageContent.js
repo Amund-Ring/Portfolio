@@ -14,6 +14,7 @@ height:900vh;
 margin-bottom:30vh;
 display: flex;
 flex-flow: column nowrap;
+pointer-events: none;
 `;
 
 const ImageBox = styled.div`
