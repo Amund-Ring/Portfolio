@@ -1,30 +1,19 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import colors from '../../Assets/Colors';
 import device from '../../Assets/Responsive/breakpoints';
 
 const Container = styled.section`
     height: 100vh;
     width:100%;
-    /* border: 1px solid blue; */
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    align-content: flex-start;
-    @media ${device.mobileS} {
-    padding-left:60px;
-    }
-    @media ${device.mobileM} {
-    padding-left:60px;
-    }
-    @media ${device.mobileL} {
-    padding-left:60px;
-    }
-    @media ${device.tablet} {
-    padding-left:90px;
-    }
-    @media ${device.laptop} {
-    padding-left:120px;
-    }
+    align-content: center;
+
+    border: 1px solid blue;
+    padding-left: 10%;
+    padding-right: 10%;
 `;
 
 const SkillsTitle = styled.div`
@@ -48,14 +37,15 @@ const SkillsTitle = styled.div`
 `;
 
 const SkillsList = styled.div`
-  font-family: 'AvenirRoman';
+  font-family: 'SF-Compact-Text-Light';
   z-index: 1;
+  font-size: 23px;
 
   border: 2px solid green;
   
   @media ${device.mobileS} {
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 23px;
   }
   @media ${device.mobileM} {
     margin-top: 35px;
@@ -63,15 +53,37 @@ const SkillsList = styled.div`
   }
   @media ${device.mobileL} {
     margin-top: 35px;
-    font-size: 25px;
+    font-size: 23px;
   }
   @media ${device.tablet} {
     margin-top: 45px;
-    font-size: 35px;
+    font-size: 23px;
   }
   @media ${device.laptop} {
     margin-top: 60px;
-    font-size: 45px;
+    font-size: 23px;
+  }
+`;
+
+const Headline = styled.div`
+  color: ${colors.primary};
+  font-family: 'SF-Compact-Rounded-Regular';
+  margin-bottom: 2%;
+
+  @media ${device.mobileS} {
+    font-size: 23px;
+  }
+  @media ${device.mobileM} {
+    font-size: 23px;
+  }
+  @media ${device.mobileL} {
+    font-size: 23px;
+  }
+  @media ${device.tablet} {
+    font-size: 23px;
+  }
+  @media ${device.laptop} {
+    font-size: 23px;
   }
 `;
 
@@ -82,32 +94,44 @@ class Skills extends Component {
         <SkillsTitle>SKILLS</SkillsTitle>
         <SkillsList>
           <div>
+            <div>
+              <Headline>App Development</Headline>
+              Swift
+              <br />
+              SwiftUI / UIKit
+              <br />
+              React Native
+              <br />
+              <br />
+            </div>
+            <div>
+              <Headline>Design</Headline>
+              Figma
+              <br />
+              Photoshop
+              <br />
+              Pixelmator Pro
+              <br />
+              <br />
+            </div>
+          </div>
+          <div>
+            <Headline>Web Development</Headline>
             React
             <br />
-            React Native
+            Next.js
             <br />
             Node.js
             <br />
+            JavaScript
             <br />
-            Rapid Prototyping
+            TypeScript
             <br />
-            Functional Programming
+            Tailwind CSS
             <br />
-            Interaction Development
+            Styled Components
             <br />
-            <br />
-            Responsive Design
-            <br />
-            Testing & Debugging
-            <br />
-            Application Architecture
-            <br />
-            <br />
-            Figma & Sketch
-            <br />
-            Design system
-            <br />
-            Abstract
+            CSS Modules / Sass
             <br />
           </div>
         </SkillsList>

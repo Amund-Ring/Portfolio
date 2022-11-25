@@ -66,7 +66,8 @@ const SocialMediaIcons = styled.div`
   grid-template-columns: auto auto;
   margin-top: 60px;
   grid-gap: 40px;
-  /* border: 2px solid black;l */
+
+  /* border: 2px solid black; */
 
   @media ${device.mobileS} {
     margin-top: 60px;
@@ -96,7 +97,7 @@ class Contact extends Component {
       <Container>
         <ContactTitle>CONTACT</ContactTitle>
         <SocialMediaIcons>
-          <SocialLogo imgURL={linkedInImg} alternate="linkedin" redirectURL="https://www.linkedin.com/in/amundring" />
+          <SocialLogo imgURL={linkedInImg} alternate="linkedin" redirectURL="https://www.linkedin.com/in/amundring" marginBottom />
           <SocialLogo imgURL={githubImg} alternate="github" redirectURL="https://github.com/Amund-Ring" />
           <SocialLogo imgURL={instaImg} alternate="insta" redirectURL="https://www.instagram.com/amundring/" />
           <SocialLogo imgURL={mailImg} alternate="mail" redirectURL="mailto:ring.amund@gmail.com" />

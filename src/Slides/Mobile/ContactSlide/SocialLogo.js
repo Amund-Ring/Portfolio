@@ -6,6 +6,8 @@ import device from '../../../Assets/Responsive/breakpoints';
 const LogoImage = styled.img`
 /* border: 1px solid black; */
 
+padding-bottom: ${props => (props.marginBottom ? '7px' : '0px')};
+
   @media ${device.mobileS} {
     height: 65px;
     width: 65px;
@@ -26,10 +28,10 @@ const LogoImage = styled.img`
 
 class SocialLogo extends React.Component {
   render() {
-    const { imgURL, alternate, redirectURL } = this.props;
+    const { imgURL, alternate, redirectURL, marginBottom } = this.props;
     return (
       <a href={redirectURL} target="_blank" rel="noopener noreferrer">
-        <LogoImage src={imgURL} alt={alternate} />
+        <LogoImage src={imgURL} alt={alternate} marginBottom={marginBottom} />
       </a>
 
     );
