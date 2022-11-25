@@ -12,9 +12,9 @@ const Container = styled.section`
   align-items: center;
 
   padding-left: 7vw;
-  padding-right: 3vw;
+  padding-right: 5vw;
   margin-top: 5h;
-  
+
   /* border: 3px solid orange; */
 `;
 
@@ -57,8 +57,7 @@ class AboutMe extends Component {
     return (
       <Container>
         <AboutMeDescription>
-          Front-end developer who cares deeply about user experience. Serious
-          passion for UI design and new technologies.
+        Software developer who cares deeply about user experience. Passionate about UI design and new technologies.
         </AboutMeDescription>
       </Container>
     );
