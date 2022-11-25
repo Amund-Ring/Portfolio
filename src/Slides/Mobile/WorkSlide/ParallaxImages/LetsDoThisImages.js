@@ -8,72 +8,71 @@ import screenshot4 from '../../../../Assets/Images/LetsDoThis/screenshot4.png';
 
 const Screenshot1 = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 15}%) scale(0.7)`,
-  }),
+    transform: `translate(0px,-${scroll * 15}%) scale(0.65)`
+  })
 })`
-transition: transform 0.2s ease-out;
-position: absolute;
-bottom: -170vh;
-transform-origin: left center;
-left:2vw;
-/* border: 1px dashed red; */
-height: 80vh; 
+  transition: transform 0.2s ease-out;
+  position: absolute;
+  bottom: -100vh;
+  transform-origin: left center;
+  left: 2vw;
+  height: 80vh;
+
+  /* border: 1px dashed red; */
 `;
 
 const Screenshot2 = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 8.5}%) scale(0.62)`,
-  }),
+    transform: `translate(0px,-${scroll * 8.5}%) scale(0.62)`
+  })
 })`
-transition: transform 0.2s ease-out;
-position: absolute;
-bottom:-125vh;
-right: 2vw;
-transform-origin: right center;
-/* border: 1px dashed red; */
-height: 80vh;
-filter: blur(0.6px);
+  transition: transform 0.2s ease-out;
+  position: absolute;
+  bottom: -65vh;
+  right: 0vw;
+  transform-origin: right center;
+  height: 80vh;
+
+  /* border: 1px dashed red; */
 `;
 
 const Screenshot3 = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 3.5}%) scale(0.5)`,
-  }),
+    transform: `translate(0px,-${scroll * 5}%) scale(0.55)`
+  })
 })`
-transition: transform 0.2s ease-out;
-bottom:-110vh;
-left:10vw;
-transform-origin: left center;
-position: absolute;
-/* border: 1px dashed red; */
-height: 80vh;
-filter: blur(0.8px);
+  transition: transform 0.2s ease-out;
+  bottom: -60vh;
+  left: 3vw;
+  transform-origin: left center;
+  position: absolute;
+  height: 80vh;
+
+  /* border: 1px dashed red; */
 `;
 
 const Screenshot4 = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${(scroll) * 2}%) scale(0.45)`,
-  }),
+    transform: `translate(0px,-${scroll * 2}%) scale(0.5)`
+  })
 })`
-transition: transform 0.2s ease-out;
-bottom:-105vh;
-right: 10vw;
-transform-origin: right center;
-position: absolute;
-/* border: 1px dashed red; */
-height: 80vh;
-filter: blur(1.2px);
+  transition: transform 0.2s ease-out;
+  bottom: -50vh;
+  right: 2vw;
+  transform-origin: right center;
+  position: absolute;
+  /* border: 1px dashed red; */
+  height: 80vh;
 `;
 
 class LetsDoThisImages extends Component {
   render() {
     let { scrollPercent } = this.props;
-    const {
-      boxHeight, index, scrollHeight, screenHeight,
-    } = this.props;
-    const heighttoBeReducedinVH = ((boxHeight * index) - 100);
+    const { boxHeight, index, scrollHeight, screenHeight } = this.props;
+    const heighttoBeReducedinVH = boxHeight * index - 100;
     const scrollOffset = (screenHeight * heighttoBeReducedinVH) / 100;
-    const scrollOffsetInPercent = (scrollOffset * 100 / scrollHeight) + index - 1;
+    const scrollOffsetInPercent =
+      (scrollOffset * 100) / scrollHeight + index - 1;
     // console.log('WMF scrollOffsetPercent ', scrollOffsetInPercent);
     scrollPercent -= scrollOffsetInPercent;
     if (scrollPercent > 0 && scrollPercent < 0.1) {
@@ -81,10 +80,26 @@ class LetsDoThisImages extends Component {
     }
     return (
       <React.Fragment>
-        <Screenshot1 src={screenshot1} scroll={scrollPercent} alt="screenshot1" />
-        <Screenshot2 src={screenshot2} scroll={scrollPercent} alt="screenshot2" />
-        <Screenshot3 src={screenshot3} scroll={scrollPercent} alt="screenshot3" />
-        <Screenshot4 src={screenshot4} scroll={scrollPercent} alt="screenshot4" />
+        <Screenshot4
+          src={screenshot4}
+          scroll={scrollPercent}
+          alt='screenshot4'
+        />
+        <Screenshot2
+          src={screenshot2}
+          scroll={scrollPercent}
+          alt='screenshot2'
+        />
+        <Screenshot3
+          src={screenshot3}
+          scroll={scrollPercent}
+          alt='screenshot3'
+        />
+        <Screenshot1
+          src={screenshot1}
+          scroll={scrollPercent}
+          alt='screenshot1'
+        />
       </React.Fragment>
     );
   }
@@ -95,7 +110,7 @@ LetsDoThisImages.propTypes = {
   index: PropTypes.number.isRequired,
   screenHeight: PropTypes.number.isRequired,
   scrollHeight: PropTypes.number.isRequired,
-  scrollPercent: PropTypes.number.isRequired,
+  scrollPercent: PropTypes.number.isRequired
 };
 
 export default LetsDoThisImages;

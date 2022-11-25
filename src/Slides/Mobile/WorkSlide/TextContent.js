@@ -12,6 +12,8 @@ const TextContainer = styled.section`
   flex-flow: column nowrap;
   height: 100vh;
   width: 100%;
+  /* z-index: 10; */
+  /* background: white; */
 
   border: 2px dashed red;
 `;
@@ -20,7 +22,9 @@ const ProjectName = styled.div`
   font-family: 'AvenirHeavy';
   font-size: 28px;
   cursor: pointer;
+
   color: ${colors.primary};
+  /* z-index: 10; */
 
   @media ${device.mobileS} {
     font-size: 38px;

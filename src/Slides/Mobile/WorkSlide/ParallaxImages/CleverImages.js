@@ -78,9 +78,9 @@ class CleverImages extends Component {
 
     return (
       <React.Fragment>
-        <Screenshot1 src={screenshot1} scroll={scrollPercent} alt="screenshot1" />
-        <Screenshot2 src={screenshot2} scroll={scrollPercent} alt="screenshot2" />
-        <Screenshot3 src={screenshot3} scroll={scrollPercent} alt="screenshot3" />
+        {/* <Screenshot1 src={screenshot1} scroll={scrollPercent} alt="screenshot1" /> */}
+        {/* <Screenshot2 src={screenshot2} scroll={scrollPercent} alt="screenshot2" /> */}
+        {/* <Screenshot3 src={screenshot3} scroll={scrollPercent} alt="screenshot3" /> */}
       </React.Fragment>
     );
   }
