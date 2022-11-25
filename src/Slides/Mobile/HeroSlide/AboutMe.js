@@ -11,7 +11,9 @@ const Container = styled.section`
   justify-content: center;
   align-items: center;
 
-  /* border: 3px solid orange; */
+  border: 3px solid orange;
+  padding-left: 7vw;
+  padding-right: 3vw;
   margin-top: 5h;
 `;
 
