@@ -8,7 +8,7 @@ const Container = styled.div`
   display: flex;
   flex-flow: row nowrap;
 
-  // border: 4px dashed purple;
+  /* border: 6px dashed purple; */
 `;
 
 class Work extends Component {

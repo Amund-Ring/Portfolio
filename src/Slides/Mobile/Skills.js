@@ -10,10 +10,10 @@ const Container = styled.section`
     flex-flow: column wrap;
     justify-content: center;
     align-content: center;
-
-    border: 1px solid blue;
     padding-left: 10%;
     padding-right: 10%;
+
+    /* border: 1px solid blue; */
 `;
 
 const SkillsTitle = styled.div`
@@ -41,7 +41,7 @@ const SkillsList = styled.div`
   z-index: 1;
   font-size: 23px;
 
-  border: 2px solid green;
+  /* border: 2px solid green; */
   
   @media ${device.mobileS} {
     margin-top: 30px;
@@ -71,19 +71,19 @@ const Headline = styled.div`
   margin-bottom: 2%;
 
   @media ${device.mobileS} {
-    font-size: 23px;
+    font-size: 25px;
   }
   @media ${device.mobileM} {
-    font-size: 23px;
+    font-size: 25px;
   }
   @media ${device.mobileL} {
-    font-size: 23px;
+    font-size: 25px;
   }
   @media ${device.tablet} {
-    font-size: 23px;
+    font-size: 25px;
   }
   @media ${device.laptop} {
-    font-size: 23px;
+    font-size: 25px;
   }
 `;
 
