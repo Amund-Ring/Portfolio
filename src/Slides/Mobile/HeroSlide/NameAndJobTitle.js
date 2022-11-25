@@ -12,7 +12,7 @@ const Container = styled.section`
     height:100vh;
     width:100%;
     background-color: white;
-    padding-bottom: 20%;
+    padding-bottom: 40%;
 
     /* border: 2px solid blue; */
 `;
@@ -43,7 +43,7 @@ const Name = styled.div`
 const Title = styled.div`
   font-family: 'AvenirRoman';
   text-align:center;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 22px;
   @media ${device.mobileS} {
     font-size: 26px;
