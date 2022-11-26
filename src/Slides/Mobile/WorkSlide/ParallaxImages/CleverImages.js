@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import screenshot1 from '../../../../Assets/Images/CleverClothing/screenshot1.png';
-import screenshot2 from '../../../../Assets/Images/CleverClothing/screenshot2.png';
-import screenshot3 from '../../../../Assets/Images/CleverClothing/screenshot3.png';
+import screenshot1 from '../../../../Assets/Images/CleverClothing/screenshot1_mobile.png';
+import screenshot2 from '../../../../Assets/Images/CleverClothing/screenshot2_mobile.png';
+import screenshot3 from '../../../../Assets/Images/CleverClothing/screenshot3_mobile.png';
 
 const Screenshot1 = styled.img.attrs({
   style: ({ scroll }) => ({
