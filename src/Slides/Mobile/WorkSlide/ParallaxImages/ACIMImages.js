@@ -15,7 +15,7 @@ const Screenshot1 = styled.img.attrs({
   position: absolute;
   bottom: -100vh;
   transform-origin: left center;
-  left: 2vw;
+  left: 2.5vw;
   height: 80vh;
 
   /* border: 1px dashed red; */
@@ -43,7 +43,7 @@ const Screenshot3 = styled.img.attrs({
 })`
   transition: transform 0.2s ease-out;
   bottom: -100vh;
-  left: 3vw;
+  left: 2.5vw;
   transform-origin: left center;
   position: absolute;
   height: 80vh;
