@@ -9,6 +9,7 @@ import DoneWithItImages from './ParallaxImages/DoneWithItImages';
 
 const ImageContainer = styled.div`
 width:100%;
+
 height:610vh;
 /* margin-bottom:30vh; */
 display: flex;
@@ -19,7 +20,7 @@ pointer-events: none;
 `;
 
 const ImageBox = styled.div`
-/* outline: 0.1px dashed green; */
+/* outline: 3px dashed green; */
 
 margin-top:30vh;
 height: 100vh;

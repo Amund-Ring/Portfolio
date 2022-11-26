@@ -12,8 +12,10 @@ const Container = styled.section`
     align-content: center;
     padding-left: 10%;
     padding-right: 10%;
-
+    
     /* border: 1px solid blue; */
+
+
 `;
 
 const SkillsTitle = styled.div`

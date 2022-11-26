@@ -40,7 +40,6 @@ class App extends Component {
         <MediaQuery query="(max-device-width: 1020px)">
           
           <React.Fragment></React.Fragment>
-
           <MobileHero />
           <MobileWork />
           <MobileSkills />

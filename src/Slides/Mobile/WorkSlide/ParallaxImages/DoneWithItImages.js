@@ -8,7 +8,7 @@ import screenshot4 from '../../../../Assets/Images/DoneWithIt/screenshot4.png';
 
 const Screenshot1 = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${scroll * 15}%) scale(0.65)`
+    transform: `translate(0px,-${scroll * 9}%) scale(0.65)`
   })
 })`
   transition: transform 0.2s ease-out;
@@ -23,12 +23,12 @@ const Screenshot1 = styled.img.attrs({
 
 const Screenshot2 = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${scroll * 8.5}%) scale(0.62)`
+    transform: `translate(0px,-${scroll * 5.5}%) scale(0.62)`
   })
 })`
   transition: transform 0.2s ease-out;
   position: absolute;
-  bottom: -65vh;
+  bottom: -75vh;
   right: 0vw;
   transform-origin: right center;
   height: 80vh;
@@ -42,7 +42,7 @@ const Screenshot3 = styled.img.attrs({
   })
 })`
   transition: transform 0.2s ease-out;
-  bottom: -60vh;
+  bottom: -100vh;
   left: 3vw;
   transform-origin: left center;
   position: absolute;
@@ -53,11 +53,11 @@ const Screenshot3 = styled.img.attrs({
 
 const Screenshot4 = styled.img.attrs({
   style: ({ scroll }) => ({
-    transform: `translate(0px,-${scroll * 2}%) scale(0.5)`
+    transform: `translate(0px,-${scroll * 3}%) scale(0.5)`
   })
 })`
   transition: transform 0.2s ease-out;
-  bottom: -50vh;
+  bottom: -85vh;
   right: 2vw;
   transform-origin: right center;
   position: absolute;
