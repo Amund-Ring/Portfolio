@@ -72,7 +72,7 @@ class ACIMImages extends Component {
     const heighttoBeReducedinVH = boxHeight * index - 100;
     const scrollOffset = (screenHeight * heighttoBeReducedinVH) / 100;
     const scrollOffsetInPercent = (scrollOffset * 100) / scrollHeight;
-    console.log('scrollPercent ', scrollPercent);
+    // console.log('scrollPercent ', scrollPercent);
     scrollPercent -= scrollOffsetInPercent;
     return (
       <React.Fragment>

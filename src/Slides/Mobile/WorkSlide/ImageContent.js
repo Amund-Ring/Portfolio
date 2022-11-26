@@ -45,8 +45,8 @@ class ImageContent extends Component {
     this.setState(
       { screenHeight: Math.round(window.document.documentElement.clientHeight + vhDiff) },
     );
-    console.log('scrollHeight', Math.round(window.document.documentElement.scrollHeight));
-    console.log('screenHeight', Math.round(window.document.documentElement.clientHeight));
+    // console.log('scrollHeight', Math.round(window.document.documentElement.scrollHeight));
+    // console.log('screenHeight', Math.round(window.document.documentElement.clientHeight));
   }
 
   componentWillUnmount() {

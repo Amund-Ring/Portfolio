@@ -76,7 +76,7 @@ class LetsDoThisImages extends Component {
     // console.log('WMF scrollOffsetPercent ', scrollOffsetInPercent);
     scrollPercent -= scrollOffsetInPercent;
     if (scrollPercent > 0 && scrollPercent < 0.1) {
-      console.log('WMF');
+      // console.log('WMF');
     }
     return (
       <React.Fragment>

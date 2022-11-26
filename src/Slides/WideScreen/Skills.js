@@ -179,7 +179,7 @@ class Skills extends Component {
       (sd / (documentElement.scrollHeight - documentElement.clientHeight)) *
       100;
 
-    console.log(documentElement.clientHeight);
+    // console.log(documentElement.clientHeight);
 
     const minlimit =
       (documentElement.clientHeight * 800) / documentElement.scrollHeight;

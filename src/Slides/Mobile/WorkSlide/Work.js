@@ -34,7 +34,7 @@ class Work extends Component {
         number: '01',
         projectName: 'ACIM Workbook',
         projectDesc:
-          "App for browsing the workbook of the popular spiritual self-study program 'A Course in Miracles'.",
+          "App for browsing the workbook of the popular self-study program 'A Course in Miracles'.",
         projectType: 'iOS Application',
         githubLink: 'https://github.com/Amund-Ring/ACIM-Workbook',
         webLink: [
@@ -46,16 +46,16 @@ class Work extends Component {
       {
         number: '02',
         projectName: 'Clever Clothing',
-        projectDesc: 'Clothing store website',
+        projectDesc: 'Clothing store website concept. Browse clothing items of different categories and add them to the shopping cart.',
         projectType: 'Website',
         githubLink: 'https://github.com/Amund-Ring/Clever-Clothing',
-        webLink: ['https://clothing.amundring.no/', 'Check it out here'],
+        webLink: ['https://clothing.amundring.no/', 'Visit Website'],
         roles: ['Front-end Developer', 'UI Designer']
       },
       {
         number: '03',
         projectName: "Let's Do This",
-        projectDesc: 'Todo list application created with React Native',
+        projectDesc: 'Todo list application created with React Native. Create a new todo and pick an emoji to represent the task at hand.',
         projectType: 'iOS Application',
         githubLink: 'https://github.com/Amund-Ring/Lets-Do-This',
         webLink: [
