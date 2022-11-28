@@ -12,8 +12,9 @@ const TextContainer = styled.section`
   flex-flow: column nowrap;
   height: 100vh;
   width: 50%;
+  padding-right: 5%;
 
-  // border: 4px dashed red;
+  /* border: 4px dashed red; */
 `;
 
 const ProjectName = styled.div`
