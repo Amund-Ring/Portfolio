@@ -12,7 +12,6 @@ const TextContainer = styled.section`
   flex-flow: column nowrap;
   height: 100vh;
   width: 50%;
-  padding-right: 5%;
 
   /* border: 4px dashed red; */
 `;
@@ -35,10 +34,8 @@ const ProjectName = styled.div`
 
 const ProjectDesc = styled.div`
   padding-top: 4%;
-  // opacity: 0.8;
-
   font-family: 'SF-Compact-Text-Light';
-  // font-family: 'AvenirBook';
+  margin-right: 14%;
 
   @media ${device.laptop} {
     font-size: 24px;
