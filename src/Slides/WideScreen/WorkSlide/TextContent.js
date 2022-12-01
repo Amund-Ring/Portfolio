@@ -29,6 +29,7 @@ const ProjectName = styled.div`
   @media ${device.desktop} {
     font-size: 120px;
   }
+  
   /* border: 1px dashed black; */
 `;
 
