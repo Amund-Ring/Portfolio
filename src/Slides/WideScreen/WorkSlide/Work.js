@@ -56,7 +56,7 @@ class Work extends Component {
         projectType: 'Website',
         githubLink: 'https://github.com/Amund-Ring/Clever-Clothing',
         webLink: ['https://clothing.amundring.no/', 'Visit Website'],
-        roles: ['Front-end Developer', 'UI Designer']
+        roles: ['Frontend Developer', 'UI Designer']
       },
       {
         number: '03',
@@ -65,7 +65,7 @@ class Work extends Component {
         projectType: 'iOS Application',
         githubLink: 'https://github.com/Amund-Ring/Lets-Do-This',
         webLink: ['https://github.com/Amund-Ring/Lets-Do-This', 'GitHub Repository'],
-        roles: ['Front-end Developer', 'UI Designer']
+        roles: ['Frontend Developer', 'UI Designer']
       },
       {
         number: '04',
